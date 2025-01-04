@@ -1,0 +1,22 @@
+# Running the Python script with arguments
+python cifar_train.py \
+  --dataset cifar10 \
+  --num_classes 10 \
+  --num_meta 10 \
+  --batch-size 100 \
+  --imb_factor 0.01 \
+  --test-batch-size 100 \
+  --epochs 200 \
+  --lr 0.1 \
+  --momentum 0.9 \
+  --nesterov True \
+  --weight-decay 5e-4 \
+  --no-cuda False \
+  --split 1000 \
+  --seed 42 \
+  --print-freq 100 \
+  --lam 0.5 \
+  --gpu 0 \
+  --meta_lr 0.1 \
+  --save_name 'name' \
+  --idx '0'
